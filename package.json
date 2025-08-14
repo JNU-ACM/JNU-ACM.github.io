@@ -1,0 +1,26 @@
+{
+  "name": "jnu-acm.github.io",
+  "description": "A project of vuepress-theme-hope",
+  "version": "2.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
+    "docs:update-package": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.24",
+    "sass-embedded": "^1.89.2",
+    "vue": "^3.5.17",
+    "vuepress": "2.0.0-rc.24",
+    "vuepress-theme-hope": "2.0.0-rc.94"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748"
+}
