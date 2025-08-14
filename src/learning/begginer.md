@@ -48,3 +48,33 @@ order: 1
 ### Java
 
 算法竞赛中已经较少使用了，效率上不如 C++，语法上不如 Python 简洁，一般不推荐。
+
+## 学习资源
+
+### 在线评测平台（Online Judge, OJ）
+
+#### 洛谷
+
+[https://www.luogu.com.cn](https://www.luogu.com.cn)
+
+国内知名OJ，题库丰富，主要用于刷题，比赛主要面向初高中信息学竞赛选手。洛谷上有很多优质题单，可以按照题单顺序进行学习，推荐 [能力全面提升综合题单](https://www.luogu.com.cn/training/9391)。
+
+#### Codeforces
+
+[https://codeforces.com](https://codeforces.com)
+
+俄罗斯平台，题多比赛多，练手速的不二之选。简单题偏 Trick 脑洞，中难题有也有思维难度，整体倾向于训练算法思维，题目质量较高。比赛时间通常为 22:32 - 00:35，时间不是很友好，第二天有早八需要慎重考虑是否参加。
+
+Codeforces 有 rating 机制，会根据每场比赛的表现评级并排位，适合长期练习和提升。比赛分为 4 个 Division，初学者可以从较简单的 Div.3 / Div.4 开始。
+
+
+#### 牛客竞赛
+[https://ac.nowcoder.com](https://ac.nowcoder.com)
+
+国内平台，比赛比较多，可以尝试牛客周赛和牛客小白月赛。很多学校在牛客上举办招新赛、校赛，寒暑假也会专门举办算法训练营：牛客寒假算法基础集训营、牛客暑期多校训练营。
+
+#### AtCoder
+
+[https://atcoder.jp](https://atcoder.jp)
+
+日本平台，题目质量高，难度适中，比赛时间较为友好，倾向于考察常规算法和数据结构。初学者可以从 AtCoder Beginner Contest (ABC) 开始，难度适中，适合入门。
