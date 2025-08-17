@@ -8,11 +8,11 @@ order: 1
 
 ## 什么是算法竞赛？
 
-算法竞赛是一种考察参赛者算法设计能力和代码实现能力的编程比赛。参赛者需要在规定时间内解决一系列算法题目，题目具有相当的难度和复杂性。
+算法竞赛是一种考察参赛者算法设计能力和代码实现能力的编程比赛。参赛者需要在规定时间内解决一系列算法题目，具有相当的难度和复杂性。
 
-一般而言，题目对你的代码有2个方面的要求：
+一般而言，题目有2个方面的要求：
 
-- **时间限制**：代码运行时间必须在规定的时间内完成执行。
+- **时间限制**：代码必须在规定的时间内完成执行。
 - **内存限制**：代码运行过程中使用的内存不能超过规定的限制。
 
 对于想要深耕算法竞赛的同学，需要逐步提升以下能力：
@@ -51,15 +51,27 @@ order: 1
 
 ## 学习资源
 
-### 在线评测平台（Online Judge, OJ）
+### Hello Algo
 
-#### 洛谷
+[https://www.hello-algo.com](https://www.hello-algo.com)
+
+一本算法电子书，包含动画图解，非常适合入门选手。
+
+### OI Wiki
+
+[https://oi-wiki.org](https://oi-wiki.org)
+
+国内知名的算法竞赛学习网站，内容全面，覆盖了大部分常用算法，可以作为学习的主要参考资料。
+
+## 在线评测平台（Online Judge, OJ）
+
+### 洛谷
 
 [https://www.luogu.com.cn](https://www.luogu.com.cn)
 
 国内知名OJ，题库丰富，主要用于刷题，比赛主要面向初高中信息学竞赛选手。洛谷上有很多优质题单，可以按照题单顺序进行学习，推荐 [能力全面提升综合题单](https://www.luogu.com.cn/training/9391)。
 
-#### Codeforces
+### Codeforces
 
 [https://codeforces.com](https://codeforces.com)
 
@@ -68,12 +80,12 @@ order: 1
 Codeforces 有 rating 机制，会根据每场比赛的表现评级并排位，适合长期练习和提升。比赛分为 4 个 Division，初学者可以从较简单的 Div.3 / Div.4 开始。
 
 
-#### 牛客竞赛
+### 牛客竞赛
 [https://ac.nowcoder.com](https://ac.nowcoder.com)
 
 国内平台，比赛比较多，可以尝试牛客周赛和牛客小白月赛。很多学校在牛客上举办招新赛、校赛，寒暑假也会专门举办算法训练营：牛客寒假算法基础集训营、牛客暑期多校训练营。
 
-#### AtCoder
+### AtCoder
 
 [https://atcoder.jp](https://atcoder.jp)
 
