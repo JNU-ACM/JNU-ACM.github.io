@@ -23,5 +23,12 @@ export default sidebar({
       prefix: "contests/",
       children: "structure",
     },
+    {
+      text: "其他文章",
+      icon: "book",
+      link: "articles/",
+      prefix: "articles/",
+      children: "structure",
+    },
   ],
 });

@@ -12,6 +12,10 @@ export default hopeTheme({
   navbar,
   sidebar,
 
+  toc: {
+    levels: [2, 3],
+  },
+
   copyright: false,
   footer: "由 <a href=\"https://theme-hope.vuejs.press/zh/\" target=\"_blank\">VuePress Theme Hope</a> 驱动",
   displayFooter: true,
