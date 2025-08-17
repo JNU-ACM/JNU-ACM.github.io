@@ -1,5 +1,6 @@
 ---
 title: 萌新入门算法竞赛（转载）
+icon: book
 order: 1
 ---
 
@@ -43,7 +44,7 @@ GitHub主页：[【打破信息差】萌新认识与入门算法竞赛](https://
 
 ## 文章大纲
 
-![【打破信息差】萌新认识与入门算法竞赛-文章大纲](assets/1.png)
+![【打破信息差】萌新认识与入门算法竞赛-文章大纲](resot/1.png)
 
 ## 学术诚信
 
@@ -154,7 +155,7 @@ IOI 赛制结合了 OI 赛制的部分得分特性与一定的提交自由度，
 
 下面分别以ICPC 2024年[南京站](https://icpc.pku.edu.cn/tzgg/161577.htm)为例
 
-![ICPC-2024年南京站正式队伍要求](assets/2.png)
+![ICPC-2024年南京站正式队伍要求](resot/2.png)
 
 #### 打星队伍
 
@@ -186,7 +187,7 @@ IOI 赛制结合了 OI 赛制的部分得分特性与一定的提交自由度，
 
 以[团体程序设计天梯赛](https://gplt.patest.cn/regulation#%E8%8E%B7%E5%A5%96%E6%AF%94%E4%BE%8B)为例
 
-![团体程序设计天梯赛-女队奖项](assets/3.png)
+![团体程序设计天梯赛-女队奖项](resot/3.png)
 
 ### XCPC 比赛类别
 
@@ -232,13 +233,13 @@ XCPC是对包括ICPC、CCPC等在内的各类大学生程序设计竞赛的统�
 
 以[2024年南京站](https://icpc.pku.edu.cn/tzgg/161009.htm)为例
 
-![2024年南京站名额分配](assets/4.png)
+![2024年南京站名额分配](resot/4.png)
 
 ##### 报名流程
 
 以[2024年南京站](https://icpc.pku.edu.cn/tzgg/161577.htm)为例
 
-![2024年南京站队伍注册](assets/5.png)
+![2024年南京站队伍注册](resot/5.png)
 
 ##### 外卡
 
@@ -259,25 +260,25 @@ XCPC是对包括ICPC、CCPC等在内的各类大学生程序设计竞赛的统�
 
 以[2024年上海站](https://icpc.pku.edu.cn/tzgg/161744.htm)为例
 
-![2024年上海站日程表](assets/6.png)
+![2024年上海站日程表](resot/6.png)
 
 也存在热身赛和正式赛在同一天的情况。
 
 以2025年南昌邀请赛为例
 
-![2025年南昌邀请赛日程表](assets/7.png)
+![2025年南昌邀请赛日程表](resot/7.png)
 
 #### 比赛规则
 
 以2025年山东省赛为例
 
-![2025年山东省赛比赛规则](assets/8.png)
+![2025年山东省赛比赛规则](resot/8.png)
 
 #### 奖项设置
 
 以2025年山东省赛为例
 
-![2025年山东省赛奖项设置](assets/9.png)
+![2025年山东省赛奖项设置](resot/9.png)
 
 #### 比赛场地
 
@@ -419,19 +420,19 @@ XCPC赛事的核心是**三人团队协作**。一个高效的团队远超个人
 
 [蓝桥杯主页](https://dasai.lanqiao.cn/)
 
-![蓝桥杯主页](assets/10.png)
+![蓝桥杯主页](resot/10.png)
 
 #### 个人主页
 
 一般用于查询比赛信息和下载证书
 
-![蓝桥杯个人主页](assets/11.png)
+![蓝桥杯个人主页](resot/11.png)
 
 #### 报名参赛
 
-![报名参赛1](assets/12.png)
+![报名参赛1](resot/12.png)
 
-![报名参赛2](assets/13.png)
+![报名参赛2](resot/13.png)
 
 一般院校都会组织报名，学生需要做的是完成实名认证，填写报名信息和报名缴费。
 
@@ -468,17 +469,17 @@ XCPC赛事的核心是**三人团队协作**。一个高效的团队远超个人
 
 #### 主页
 
-![百度之星主页](assets/17.png)
+![百度之星主页](resot/17.png)
 
 #### 报名
 
 主页下拉找到下图
 
-![百度之星报名1](assets/18.png)
+![百度之星报名1](resot/18.png)
 
 点击想要报名的场次进入到下图页面，点击红框按钮完善信息与缴费即可完成报名
 
-![百度之星报名2](assets/19.png)
+![百度之星报名2](resot/19.png)
 
 ## 关键网站
 
@@ -514,17 +515,17 @@ XCPC赛事的核心是**三人团队协作**。一个高效的团队远超个人
 
 另外还有carrot，这个插件要在chrome的应用商店下载，这个插件可以赛时查看自己的表现分（自己当时的排名对标cf的多少rating）
 
-![Carrot插件](assets/20.png)
+![Carrot插件](resot/20.png)
 
 接下来说明下codeforces最常用的几个情况，这里挑最关键的几个讲
 
 #### home
 
-![codeforces-home](assets/21.png)
+![codeforces-home](resot/21.png)
 
 #### contests
 
-![codeforces-contests](assets/22.png)
+![codeforces-contests](resot/22.png)
 
 这里额外说一点，cf常见的比赛分为div1,div2,div3,div4, edu
 
@@ -543,27 +544,27 @@ Codeforces Div1/2/1+2 为基于 ACM 赛制的 CF 赛制，其核心要点为题�
 
 随意点进一个比赛中，这里也有很多页面，我们挨个儿说
 
-![codeforces-contest-problems](assets/23.png)
+![codeforces-contest-problems](resot/23.png)
 
-![codeforces-contest-submit code](assets/24.png)
+![codeforces-contest-submit code](resot/24.png)
 
-![codeforces-contest-my submissions](assets/25.png)
+![codeforces-contest-my submissions](resot/25.png)
 
-![codeforces-contest-status](assets/26.png)
+![codeforces-contest-status](resot/26.png)
 
-![codeforces-contest-hacks](assets/27.png)
+![codeforces-contest-hacks](resot/27.png)
 
-![codeforces-contest-room](assets/28.png)
+![codeforces-contest-room](resot/28.png)
 
-![codeforces-contest-standings](assets/29.png)
+![codeforces-contest-standings](resot/29.png)
 
-![codeforces-contest-custom invocation](assets/30.png)
+![codeforces-contest-custom invocation](resot/30.png)
 
 #### gym
 
 很多xcpc类的比赛可以在cf上vp，也就是在gym上找到相应的比赛去做
 
-![codeforces-gym](assets/31.png)
+![codeforces-gym](resot/31.png)
 
 关于xcpc比赛还有牛客，洛谷，qoj，uccup等网站都会有比赛，因为有些比赛只会出现在某一个平台，想vp的话可以直接问群友在哪
 
@@ -571,15 +572,15 @@ Codeforces Div1/2/1+2 为基于 ACM 赛制的 CF 赛制，其核心要点为题�
 
 板刷cf一般就是指从这里筛选难度区间后开始刷题	
 
-![codeforces-problems](assets/32.png)
+![codeforces-problems](resot/32.png)
 
 随意点进一个题目的页面是这样的
 
-![codeforces-problem](assets/33.png)
+![codeforces-problem](resot/33.png)
 
 #### 个人主页
 
-![codeforces-个人主页](assets/34.png)
+![codeforces-个人主页](resot/34.png)
 
 顺带讲一下cf的颜色分段
 
@@ -604,7 +605,7 @@ Codeforces Div1/2/1+2 为基于 ACM 赛制的 CF 赛制，其核心要点为题�
 
 实际上这个页面我几乎没怎么用过，因为有个非常好用的页面可以用
 
-![atcoder-比赛页面](assets/35.png)
+![atcoder-比赛页面](resot/35.png)
 
 #### AtCoder Problems
 
@@ -612,61 +613,61 @@ Codeforces Div1/2/1+2 为基于 ACM 赛制的 CF 赛制，其核心要点为题�
 
 一般可以直接在这里找自己想要VP的比赛，或者干脆在这里找题
 
-![Atcoder Problems](assets/36.png)
+![Atcoder Problems](resot/36.png)
 
 #### 注册比赛
 
 以ABC408为例，想要打比赛首先先要注册（刚好写这篇博客的时候正在打比赛）
 
-![atcoder-注册比赛1](assets/37.png)
+![atcoder-注册比赛1](resot/37.png)
 
 点击蓝色Rigister注册按钮后会显示两个按钮——Rated Register/Unrated Register，可以用来选择要不要计分打比赛（超过1999分的选手只能不计分参赛），此外如果选择的计分参赛，那么无论交不交题都会被算作参赛（CF中如果注册了但是不提交代码将会视为未参赛）
 
 如果是之前已经举办过的比赛，那么这个页面中只有VP的注册按钮
 
-![atcoder-注册比赛2](assets/38.png)
+![atcoder-注册比赛2](resot/38.png)
 
 #### 比赛题目列表页面
 
 接下来点击Task进入题目页面，点击题目就可以做题了
 
-![atcoder-contest-tasks](assets/39.png)
+![atcoder-contest-tasks](resot/39.png)
 
 #### 比赛题目页面
 
-![atcoder-contest-task1](assets/40.png)
+![atcoder-contest-task1](resot/40.png)
 
-![atcoder-contest-task2](assets/41.png)
+![atcoder-contest-task2](resot/41.png)
 
-![atcoder-contest-task3](assets/42.png)
+![atcoder-contest-task3](resot/42.png)
 
 #### 代码提交页面
 
 除了直接在题目中提交代码，还可以在Submit页面提交代码
 
-![atcoder-contest-submit](assets/43.png)
+![atcoder-contest-submit](resot/43.png)
 
-![atcoder-contest-results1](assets/44.png)
+![atcoder-contest-results1](resot/44.png)
 
-![atcoder-contest-results2](assets/45.png)
+![atcoder-contest-results2](resot/45.png)
 
 #### 排名页面
 
 在Standing中可以查看比赛的排名，但是并不像CF一样可以直接查看自己关注的人的排名，需要一点点的筛选
 
-![atcoder-contest-standings](assets/46.png)
+![atcoder-contest-standings](resot/46.png)
 
 ### 牛客
 
 #### 主页
 
-![牛客-主页](assets/47.png)
+![牛客-主页](resot/47.png)
 
 #### 个人主页
 
 因为全是中文，所以好像没什么需要特别介绍的
 
-![牛客-个人主页](assets/48.png)
+![牛客-个人主页](resot/48.png)
 
 #### 比赛介绍
 
@@ -715,25 +716,25 @@ Codeforces Div1/2/1+2 为基于 ACM 赛制的 CF 赛制，其核心要点为题�
 
 #### 主页
 
-![洛谷-主页](assets/49.png)
+![洛谷-主页](resot/49.png)
 
 #### 个人页面
 
 ##### 主页
 
-![洛谷-个人页面-主页](assets/50.png)
+![洛谷-个人页面-主页](resot/50.png)
 
 ##### 专栏
 
 在专栏区可以发布自己的题解/知识向博客等文章
 
-![洛谷-个人页面-专栏](assets/51.png)
+![洛谷-个人页面-专栏](resot/51.png)
 
 ##### 练习
 
 洛谷并不需要安装额外的插件就可以看到自己的做题详细数据
 
-![洛谷-个人页面-练习](assets/52.png)
+![洛谷-个人页面-练习](resot/52.png)
 
 ##### 我的
 
@@ -741,27 +742,27 @@ Codeforces Div1/2/1+2 为基于 ACM 赛制的 CF 赛制，其核心要点为题�
 
 洛谷有着功能十分强大的团队系统，这部分会在后面详细介绍
 
-![洛谷-个人页面-我的-团队](assets/53.png)
+![洛谷-个人页面-我的-团队](resot/53.png)
 
 比赛这里可以查看自己参与过哪些比赛
 
-![洛谷-个人页面-我的-比赛](assets/54.png)
+![洛谷-个人页面-我的-比赛](resot/54.png)
 
 帖子这里可以用于发布求助帖之类的内容
 
-![洛谷-个人页面-我的-帖子](assets/55.png)
+![洛谷-个人页面-我的-帖子](resot/55.png)
 
 ##### 题库
 
 如果有兴趣与能力自己造题的话，那么可以通过这个页面加上自己创造的题目，比赛与题单页面同理
 
-![洛谷-个人页面-题库](assets/56.png)
+![洛谷-个人页面-题库](resot/56.png)
 
 #### 题库
 
 洛谷强大之处在于它丰富的题库与方便的筛选功能
 
-![洛谷-题库](assets/57.png)
+![洛谷-题库](resot/57.png)
 
 ##### 题目难度
 
@@ -773,43 +774,43 @@ Codeforces Div1/2/1+2 为基于 ACM 赛制的 CF 赛制，其核心要点为题�
 
 以筛选2024年蓝桥杯国赛题目为例
 
-![洛谷-题库-筛选示例1](assets/58.png)
+![洛谷-题库-筛选示例1](resot/58.png)
 
-![洛谷-题库-筛选示例2](assets/59.png)
+![洛谷-题库-筛选示例2](resot/59.png)
 
 注意要把所属题库选择洛谷，这样我们就可以筛选出2024年的蓝桥杯国赛题目了
 
 注意蓝桥杯题目的数据是洛谷方自造数据，非官方数据
 
-![洛谷-题库-筛选示例3](assets/60.png)
+![洛谷-题库-筛选示例3](resot/60.png)
 
 ##### 其他网站
 
 我们可以注意到**所处题库**中包含了其他网站，也就是说我们是可以在洛谷去做其他网站上的题目（目前因为一些原因codeforces和atcoder的题目无法提交），我们也可以通过洛谷直接去看一些题目的汉化题意（感谢好心人的汉化）
 
-![洛谷-题库-其他网站](assets/61.png)
+![洛谷-题库-其他网站](resot/61.png)
 
 #### 题单
 
 洛谷的题单功能我认为是非常优秀的功能，刚入门学习语法/算法可以做官方精选题单，去刷一些高难度算法也可以在用户分享题单中找相关算法的题目
 
-![洛谷-题单1](assets/62.png)
+![洛谷-题单1](resot/62.png)
 
 例如我们刚刚学会了线段树，现在想要刷点例题，可以通过搜索功能快速找到相应的题单
 
-![洛谷-题单2](assets/63.png)
+![洛谷-题单2](resot/63.png)
 
-![洛谷-题单3](assets/64.png)
+![洛谷-题单3](resot/64.png)
 
 而进入题单后还会有介绍部分，有些题单并没有设置题目列表，但是需要做的题都在题单简介中分类了
 
-![洛谷-题单4](assets/65.png)
+![洛谷-题单4](resot/65.png)
 
 #### 专栏
 
 我觉得洛谷的专栏质量还是很高的，有很多算法理论讲解博客都非常优秀，洛谷也有洛谷日报这样的精选合集，如果想补一下技能的话可以来专栏区进行搜索相关内容学习
 
-![洛谷-专栏](assets/66.png)
+![洛谷-专栏](resot/66.png)
 
 #### 云剪贴板
 
@@ -817,11 +818,11 @@ Codeforces Div1/2/1+2 为基于 ACM 赛制的 CF 赛制，其核心要点为题�
 
 首先在洛谷的左侧工具栏中点击 `应用>>` 部分查看二级菜单，选中 `云剪贴板` 进入，或者是直接点击这个url也可以：[洛谷云剪贴板](https://www.luogu.com.cn/paste)
 
-![洛谷-云剪贴板1](assets/67.png)
+![洛谷-云剪贴板1](resot/67.png)
 
 如果想要粘贴代码的话可以根据下图箭头指示的 `插入代码` 功能来插入代码。
 
-![洛谷-云剪贴板2](assets/68.png)
+![洛谷-云剪贴板2](resot/68.png)
 
 洛谷的云剪贴板是支持markdown语法的，事实上上面的 `插入代码` 功能本质上是直接帮你写一部分markdown语句，所以你可以选择直接写markdown的语法来插入代码，例如
 
@@ -837,21 +838,21 @@ Codeforces Div1/2/1+2 为基于 ACM 赛制的 CF 赛制，其核心要点为题�
 
 洛谷有着很优秀的团队功能，配合上洛谷题库用于平时的团队训练是很实用的
 
-![洛谷-团队](assets/69.png)
+![洛谷-团队](resot/69.png)
 
 例如想要让集训队一起训练的话我们可以根据情况建立一个作业/题单/比赛，下面以建立比赛为例
 
-![洛谷-团队-比赛说明](assets/70.png)
+![洛谷-团队-比赛说明](resot/70.png)
 
-![洛谷-团队-比赛信息](assets/71.png)
+![洛谷-团队-比赛信息](resot/71.png)
 
 点击保存后我们可以进入题目编辑页面，通过搜索题号加入题目来组织比赛题目
 
-![洛谷-团队-比赛题目](assets/72.png)
+![洛谷-团队-比赛题目](resot/72.png)
 
 这样我们就建立好了一个比赛了
 
-![洛谷-团队-比赛](assets/73.png)
+![洛谷-团队-比赛](resot/73.png)
 
 ### qoj
 
@@ -859,7 +860,7 @@ Codeforces Div1/2/1+2 为基于 ACM 赛制的 CF 赛制，其核心要点为题�
 
 #### 主页
 
-![qoj-主页](assets/74.png)
+![qoj-主页](resot/74.png)
 
 #### 比赛
 
@@ -867,21 +868,21 @@ Codeforces Div1/2/1+2 为基于 ACM 赛制的 CF 赛制，其核心要点为题�
 
 例如我们想要vp一下2024年杭州ICPC区域赛的题目
 
-![qoj-比赛归档](assets/75.png)
+![qoj-比赛归档](resot/75.png)
 
 依次选择ICPC/Regionals/Asia East Continent即可进入该目录[Asia East Continent](https://qoj.ac/category/21)
 
-![qoj-比赛分类1](assets/76.png)
+![qoj-比赛分类1](resot/76.png)
 
 点击The 2024 ICPC Asia East Regionals目录进入下一级目录就可以找到我们想要找的比赛了
 
-![qoj-比赛分类2](assets/77.png)
+![qoj-比赛分类2](resot/77.png)
 
 当然也可以先回到上一级页面向下滑动，我们也可以根据地区找到我们想要找的比赛
 
-![qoj-比赛分类3](assets/78.png)
+![qoj-比赛分类3](resot/78.png)
 
-![qoj-比赛分类4](assets/79.png)
+![qoj-比赛分类4](resot/79.png)
 
 ## 代码工具
 
@@ -893,11 +894,11 @@ Codeforces Div1/2/1+2 为基于 ACM 赛制的 CF 赛制，其核心要点为题�
 
 下载链接：[小熊猫C++](http://royqh.net/redpandacpp/download/)
 
-![小熊猫C++下载页面](assets/80.png)
+![小熊猫C++下载页面](resot/80.png)
 
 点击`蓝奏云网盘(仅windows版本) 分享码：f0tp`下载即可，下载后缀是`win64.MinGW64_xx.x.x.Setup.exe`的文件
 
-![小熊猫C++正确版本的特征图片](assets/81.png)
+![小熊猫C++正确版本的特征图片](resot/81.png)
 
 > 特征在于，中间是`win64.MinGW64`、末尾是`.exe`。如果你的电脑是32位的，下载中间是`win32.MinGW32`的即可。
 > 
@@ -909,33 +910,33 @@ Codeforces Div1/2/1+2 为基于 ACM 赛制的 CF 赛制，其核心要点为题�
 
 写好代码后按 `F11` 便可以实现编译运行代码
 
-![image-20250515121237699](assets/82.png)
+![image-20250515121237699](resot/82.png)
 
 可以在顶部菜单`工具->选项`内进行各种外观设置。
 
-![小熊猫C++选项入口图片](assets/83.png)
+![小熊猫C++选项入口图片](resot/83.png)
 
 在选项设置窗口中的`编辑器->杂项`可以设置`保存前动作`为`重新排版`，小熊猫C++会在你每次保存后自动整理代码。也有专门的代码排版设置区，可以完全自定义代码排版规则。
 
-![小熊猫C++杂项界面](assets/84.png)
+![小熊猫C++杂项界面](resot/84.png)
 
 `编辑器->代码模板`内可以自定义`C文件模板`、`C++文件模板`，这样子新建文件会自动拥有初始的板子代码，方便打线上赛。
 
 主界面左侧有`试题集`选项卡，点开后点击`绿色+号`创建，直接点击确定。
 
-![小熊猫C++创建试题集](assets/85.png)
+![小熊猫C++创建试题集](resot/85.png)
 
 然后底部有`试题`选项卡，点开后在底部左侧的试题控制面板点击`绿色+号`创建试题。
 
-![小熊猫C++创建试题](assets/86.png)
+![小熊猫C++创建试题](resot/86.png)
 
 然后右侧的第一个编辑框可以粘贴`样例输入`，右侧最后一个编辑框可以粘贴`预期输出`。
 
-![小熊猫C++设置样例](assets/87.png)
+![小熊猫C++设置样例](resot/87.png)
 
 最后在左侧面板点击`文件和绿色三角形`图标启动评测，即可很方便的在本地评测，再也不需要每次都手动编译运行粘贴样例了。
 
-![小熊猫C++执行评测](assets/88.png)
+![小熊猫C++执行评测](resot/88.png)
 
 > 如果你要打XCPC，建议在比赛前一两周和队友集体学习下`Clion`的使用(下文会介绍)。这是因为赛场是没有小熊猫C++的，只有`VS Code`和`Clion`；而部分赛点的`VS Code`无插件，处于残废状态；这时`Clion`可以保证你的代码体验不受影响。
 
@@ -945,7 +946,7 @@ Codeforces Div1/2/1+2 为基于 ACM 赛制的 CF 赛制，其核心要点为题�
 
 这里的下载链接是天梯赛的推荐版本，可以以这个为参考：[dev c++ 下载链接](https://sourceforge.net/projects/orwelldevcpp/)
 
-![天梯赛比赛环境](assets/89.png)
+![天梯赛比赛环境](resot/89.png)
 
 > 如果平常经常使用非Dev C++的IDE，建议在蓝桥杯天梯赛前一周用Dev C++设置C++11标准打几场适应下。当然，并不建议平时训练用Dev C++，虽然不需要训练就能直接上场，但是Dev C++的各种过时设计在平时训练中会浪费你大量的时间。
 
@@ -1058,13 +1059,13 @@ codeforces的题目偏向于思维，atcoder的题目偏向于典题，我个人
 
 非常推荐使用cftracker和atcoder problems这两个东西来做题。
 
-![CFTracker-示例图](assets/90.png)
+![CFTracker-示例图](resot/90.png)
 
-![Atcoder Problems-示例图](assets/91.png)
+![Atcoder Problems-示例图](resot/91.png)
 
 关于做自己最高分数+300的题目可以这样
 
-![codeforces-problems-示例图](assets/92.png)
+![codeforces-problems-示例图](resot/92.png)
 
 ### 学习算法
 
@@ -1108,9 +1109,9 @@ codeforces的题目偏向于思维，atcoder的题目偏向于典题，我个人
 
 以下是代码源的dls和wls整理出的算法路线与算法树，我觉得以这个为标准去学习是完全没问题的。
 
-![学习路线](assets/93.png)
+![学习路线](resot/93.png)
 
-![算法树](assets/94.png)
+![算法树](resot/94.png)
 
 ### 学会交际
 

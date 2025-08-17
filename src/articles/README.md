@@ -1,7 +1,7 @@
 ---
 title: 其他文章
 index: false
-icon: code
+icon: book
 ---
 
 <Catalog />
