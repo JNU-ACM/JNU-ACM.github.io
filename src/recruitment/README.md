@@ -18,7 +18,7 @@ icon: user-plus
 
 ## 招新群
 
-![](/qrcode/2025recruitment.jpg)
+![](./README/2025-recruitment-qq.jpg)
 
 <center><strong>334820369</strong></center>
 
@@ -92,5 +92,5 @@ icon: user-plus
 - 定选招新赛：[https://ac.nowcoder.com/acm/contest/75692](https://ac.nowcoder.com/acm/contest/75692)
 
 ### 2024年
-- 初选招新赛：[PDF题面](/pdf/JNU_ACM_2024初选招新赛.pdf)
-- 定选招新赛：[PDF题面](/pdf/JNU_ACM_2024定选招新赛.pdf)
+- 初选招新赛：[PDF题面](./README/JNU-ACM-2024-初选招新赛.pdf)
+- 定选招新赛：[PDF题面](./README/JNU-ACM-2024-定选招新赛.pdf)

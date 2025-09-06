@@ -24,6 +24,13 @@ export default sidebar({
       children: "structure",
     },
     {
+      text: "比赛通知",
+      icon: "material-symbols:info-outline",
+      link: "notifications/",
+      prefix: "notifications/",
+      children: "structure",
+    },
+    {
       text: "其他文章",
       icon: "book",
       link: "articles/",

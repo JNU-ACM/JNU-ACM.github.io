@@ -5,5 +5,6 @@ export default navbar([
   "/recruitment/",
   "learning/",
   "contests/",
+  "notifications/",
   "articles/"
 ]);
