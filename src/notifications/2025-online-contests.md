@@ -18,7 +18,7 @@ order: 1
 
 ### 2025 CCPC 网络预选赛
 
-- [报名通知](./2025-online-contests/2025CCPC网络赛报名通知.pdf)
+- [报名通知](2025-online-contests/2025CCPC网络赛报名通知.pdf)
 
 ### 比赛时间
 
@@ -35,7 +35,7 @@ order: 1
 ## 比赛准备
 
 ::: warning
-请先完整阅读 [2025 ICPC 网络预选赛手册](./2025-online-contests/2025ICPC网络预选赛手册.pdf)。
+请先完整阅读 [2025 ICPC 网络预选赛手册](2025-online-contests/2025ICPC网络预选赛手册.pdf)。
 :::
 
 1. 临时禁用 Windows 更新，卸载或禁用所有可能影响比赛的程序，包括但不限于：
