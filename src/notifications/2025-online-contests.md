@@ -4,6 +4,10 @@ icon: material-symbols:info-outline
 order: 1
 ---
 
+::: tip
+该比赛限 ACM 俱乐部正式成员报名参加。
+:::
+
 ## 官网信息
 
 ### 2025 ICPC 网络预选赛
