@@ -31,6 +31,7 @@ export default hopeTheme({
     mark: true,
     sub: true,
     sup: true,
+    math: true,
   },
 
   plugins: {
