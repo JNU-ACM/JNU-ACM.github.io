@@ -81,8 +81,8 @@ u_n-1 v_n-1
 
 ```cpp
 const int MAXN = 500005;
-vector<int> tree[MAXN];  // 邻接表
-int n;  // 节点数量
+vector<int> tree[MAXN]; // 邻接表
+int n;                  // 节点数量
 
 int main()
 {
@@ -113,8 +113,8 @@ p_n
 
 ```cpp
 const int MAXN = 500005;
-vector<int> tree[MAXN];  // 邻接表
-int n;  // 节点数量
+vector<int> tree[MAXN]; // 邻接表
+int n;                  // 节点数量
 
 int main()
 {
@@ -128,20 +128,52 @@ int main()
 }
 ```
 
+### 处理带权边
+
+如果树的边带有权值（如长度、费用等），可以使用 `vector<pair<int, int>>` 来存储邻接表。一般而言，`pair<int, int>` 的第一个元素表示邻接节点编号，第二个元素表示连接到该节点的边的权值。
+
+```
+n
+u_1 v_1 w_1
+u_2 v_2 w_2
+...
+u_n-1 v_n-1 w_n-1
+```
+
+表示有 `n` 个节点的树，有 `n-1` 条边，每条边连接节点 `u_i` 和节点 `v_i`，边权为 `w_i`
+
+```cpp
+const int MAXN = 500005;
+vector<pair<int, int>> tree[MAXN]; // 邻接表
+int n;                             // 节点数量
+
+int main()
+{
+    cin >> n;
+    for (int i = 1; i < n; ++i)
+    {
+        int u, v, w;
+        cin >> u >> v >> w;
+        tree[u].emplace_back(v, w);
+        tree[v].emplace_back(u, w);
+    }
+}
+```
+
 ### 存在多测的情况
 
 可以在每组测试数据中清空需要用到的邻接表部分：
 
 ```cpp
 const int MAXN = 500005;
-vector<int> tree[MAXN];  // 邻接表
-int n;  // 节点数量
+vector<int> tree[MAXN]; // 邻接表
+int n;
 
 void solve()
 {
     cin >> n;
     for (int i = 1; i <= n; ++i)
-        tree[i] = vector<int>();  // 清空邻接表
+        tree[i] = vector<int>(); // 清空邻接表
 
     // 读入边 ...
 }
@@ -150,13 +182,13 @@ void solve()
 也可以使用 `vector<vector<int>>` 代替`vector<int> tree[MAXN]`：
 
 ```cpp
-vector<vector<int>> tree;  // 邻接表
-int n;  // 节点数量
+vector<vector<int>> tree; // 邻接表
+int n;
 
 void solve()
 {
     cin >> n;
-    tree.assign(n + 1, vector<int>());  // 重新初始化邻接表
+    tree.assign(n + 1, vector<int>()); // 重新初始化邻接表
 
     // 读入边 ...
 }
@@ -173,7 +205,7 @@ void dfs(int u, int from)
 {
     // 遍历前的操作     *A
     for (int v : tree[u])
-        if (v != from)  // 避免回到父节点
+        if (v != from) // 避免回到父节点
         {
             // 递归遍历子节点 之前的操作
             dfs(v, u); // 递归
@@ -189,7 +221,9 @@ void dfs(int u, int from)
 - **中序遍历**：只适用于二叉树，在遍历左子树后、右子树前处理当前节点 `u`
 - **后序遍历**：在 **位置 B** 处理当前遍历到的节点 `u`
 
-<!-- 后续补充介绍三种遍历 -->
+<!-- todo 补充介绍三种遍历 -->
+
+---
 
 DFS 解决各类树上问题的基石，可以在遍历的过程中维护各种信息，如节点的深度、子树大小、父节点以及更多复杂信息，在树上 DP 中尤为重要。
 
@@ -199,11 +233,11 @@ DFS 解决各类树上问题的基石，可以在遍历的过程中维护各种�
 vector<int> tree[MAXN];
 int n;
 
-int fa[MAXN],      // fa[u] 表示节点 u 的父节点
-    dep[MAXN],     // dep[u] 表示节点 u 的深度（这里定义根节点深度为 0）
-    sz[MAXN],      // sz[u] 表示节点 u 的子树大小（包含节点 u 本身）
-    deg[MAXN],     // deg[u] 表示节点 u 的子节点数量
-    hei[MAXN];     // hei[u] 表示节点 u 的子树高度（即从节点 u 到其最深叶节点的距离）
+int fa[MAXN],  // fa[u] 表示节点 u 的父节点
+    dep[MAXN], // dep[u] 表示节点 u 的深度（这里定义根节点深度为 0）
+    sz[MAXN],  // sz[u] 表示节点 u 的子树大小（包含节点 u 本身）
+    deg[MAXN], // deg[u] 表示节点 u 的子节点数量
+    hei[MAXN]; // hei[u] 表示节点 u 的子树高度（即从节点 u 到其最深叶节点的距离）
 
 void dfs(int u, int from)
 {
@@ -228,8 +262,70 @@ int main()
 
     // 读入边 ...
 
-    dfs(1, -1);  // 假设节点 1 是根节点
+    dfs(1, -1); // 假设节点 1 是根节点
 }
 ```
 
 仔细阅读上面的代码，理解每个信息是如何在 DFS 过程中被维护并计算出来的。特别关注每行代码所处的位置，理解其时机和作用。
+
+---
+
+对于带权边的树，可以在遍历子节点的时候使用`for (auto [v, w] : tree[u])`来获取邻接节点和边权。下面的示例代码用于计算节点到根节点的距离 `dist[u]`：
+
+```cpp
+vector<pair<int, int>> tree[MAXN]; // 带权边的邻接表
+int n,
+    dist[MAXN]; // 距离数组
+
+void dfs(int u, int from)
+{
+    for (auto [v, w] : tree[u])
+        if (v != from)
+        {
+            dist[v] = dist[u] + w;
+            dfs(v, u);
+        }
+}
+
+int main()
+{
+    cin >> n;
+    for (int i = 1; i < n; ++i)
+    {
+        int u, v, w;
+        cin >> u >> v >> w;
+        tree[u].emplace_back(v, w);
+        tree[v].emplace_back(u, w);
+    }
+
+    dist[1] = 0;
+    dfs(1, -1);
+}
+```
+
+---
+
+下面提供一些习题，练习树的读入与存储、基于 DFS 的树上信息维护：
+
+- [洛谷 B3642](https://www.luogu.com.cn/problem/B3642)
+- [Codeforces 913B](https://codeforces.com/problemset/problem/913/B)
+- [Codeforces 862B](https://codeforces.com/problemset/problem/862/B)
+- [洛谷 P2052](https://www.luogu.com.cn/problem/P2052)
+
+
+### 广度优先搜索（BFS）
+
+<!-- todo 补充 BFS 介绍 -->
+
+下面提供一些习题，练习树上 BFS 的应用：
+
+- [洛谷 P5908](https://www.luogu.com.cn/problem/P5908)
+- [Codeforces 2070D](https://codeforces.com/contest/2070/problem/D)
+
+## 最近公共祖先
+
+参考 [OIWiki - 最近公共祖先](https://oi-wiki.org/graph/lca/)
+
+## 树链剖分
+
+参考 [OIWiki - 树链剖分](https://oi-wiki.org/graph/hld/)
