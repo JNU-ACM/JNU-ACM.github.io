@@ -303,29 +303,28 @@ int main()
 }
 ```
 
----
-
-下面提供一些习题，练习树的读入与存储、基于 DFS 的树上信息维护：
+下面提供一些习题，练习树的读入与存储、树上信息的维护：
 
 - [洛谷 B3642](https://www.luogu.com.cn/problem/B3642)
-- [Codeforces 913B](https://codeforces.com/problemset/problem/913/B)
-- [Codeforces 862B](https://codeforces.com/problemset/problem/862/B)
-- [洛谷 P2052](https://www.luogu.com.cn/problem/P2052)
-
-
-### 广度优先搜索（BFS）
-
-<!-- todo 补充 BFS 介绍 -->
-
-下面提供一些习题，练习树上 BFS 的应用：
-
 - [洛谷 P5908](https://www.luogu.com.cn/problem/P5908)
-- [Codeforces 2070D](https://codeforces.com/contest/2070/problem/D)
+- [Codeforces 913B](https://codeforces.com/problemset/problem/913/B)
+- [Codeforces 1843D](https://codeforces.com/problemset/problem/1843/D)
+- [Codeforces 1676G](https://codeforces.com/problemset/problem/1676/G)
+- [洛谷 P2052](https://www.luogu.com.cn/problem/P2052)
+- [Codeforces 580C](https://codeforces.com/problemset/problem/580/C)
+- [Codeforces 2114E](https://codeforces.com/problemset/problem/2114/E)
+- [Codeforces 429A](https://codeforces.com/problemset/problem/429/A)
+- [Codeforces 2070D](https://codeforces.com/problemset/problem/2070/D)
+- [Codeforces 1997D](https://codeforces.com/problemset/problem/1997/D)
 
 ## 最近公共祖先
 
+:::tip
 参考 [OIWiki - 最近公共祖先](https://oi-wiki.org/graph/lca/)
+:::
 
 ## 树链剖分
 
+:::tip
 参考 [OIWiki - 树链剖分](https://oi-wiki.org/graph/hld/)
+:::
