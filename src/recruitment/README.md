@@ -19,7 +19,7 @@ icon: user-plus
 
 ![](./images/2025-recruitment-qq.jpg)
 
-<center><strong>334820369</strong></center>
+<p style="text-align: center;"><strong>334820369</strong></p>
 
 
 ## 2025-2026年招新计划

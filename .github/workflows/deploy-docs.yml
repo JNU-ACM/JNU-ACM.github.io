@@ -5,12 +5,19 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  deploy-gh-pages:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -22,7 +29,6 @@ jobs:
 
       - name: 设置 pnpm
         uses: pnpm/action-setup@v4
-
 
       - name: 设置 Node.js
         uses: actions/setup-node@v4
@@ -42,9 +48,21 @@ jobs:
           pnpm run docs:build
           > src/.vuepress/dist/.nojekyll
 
-      - name: 部署文档
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: 设置 GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传 Pages 产物
+        uses: actions/upload-pages-artifact@v3
         with:
-          # 部署文档
-          branch: gh-pages
-          folder: src/.vuepress/dist
+          path: src/.vuepress/dist
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 部署文档
+        id: deployment
+        uses: actions/deploy-pages@v4

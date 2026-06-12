@@ -59,3 +59,4 @@ highlights:
       - title: 比赛名额分配
         icon: trophy
         details: 通过俱乐部内二次选拔，确定各项算法竞赛的参赛名额分配。
+---
